@@ -1,0 +1,67 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                      Mt4 Scalper M5              |
+//|                                                        forexroboteasy.com              |
+//|                                                      Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+#property version   '1.00'
+#property strict
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialize necessary variables and indicators
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Cleanup any resources used by the expert advisor
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Perform market analysis using indicators, candlestick patterns, and resistance/support lines
+
+    // Check if conditions for opening an order are met
+
+    // Generate trading signals
+
+    // Open orders based on generated signals
+
+    // Close orders based on predefined criteria
+
+    // Update stop loss and take profit levels
+
+    // Perform any necessary trailing stop operations
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Call necessary functions for market analysis
+
+    // Call necessary functions for forecasting accuracy
+
+    // Call necessary functions for scalping capabilities
+
+    // Call necessary functions for signal generation
+
+    // Call necessary functions for non-redrawing
+
+    // Call necessary functions for compatibility with Mt4 Scalper M5
+
+    // Perform any additional operations required for the trading system
+}
